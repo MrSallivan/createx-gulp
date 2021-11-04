@@ -1,4 +1,13 @@
-//
-body {
-  background-color: #ff0;
+.header{
+	padding: 23px 0;
+
+	&--main{
+		background-color: $color-light;
+	}
+	&__nav{
+		margin-left: -112px;
+	}
+	&__container{
+		@include flex-all-sb;
+	}
 }

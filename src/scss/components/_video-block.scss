@@ -4,6 +4,16 @@
 	border-radius: 4px;
 	height: 500px;
 
+	&::before{
+		content: "";
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		z-index: 3;
+		background-color: rgba(#1e212c, .6);
+	}
 		// .video-block__play
 		&__play {
 			@include flex-all-center;
@@ -35,8 +45,8 @@
 			z-index: 10;
 
 			svg{
-				width: 13px;
-				height: 13px;
+				width: 20px;
+				height: 20px;
 			}
 
 		}

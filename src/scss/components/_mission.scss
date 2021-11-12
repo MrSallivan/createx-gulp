@@ -1,4 +1,5 @@
 .mission {
+	padding-bottom: 270px;
 	background-color: $color-light;
 	// .mission__list
 	&__list {
@@ -41,9 +42,7 @@
 			background-image: url("../../img/comfort.svg");
 		}
 	}
-	// .mission__item--quality
-	&__item--quality {
-	}
+
 	// .mission__subtitle
 	&__subtitle {
 		margin: 0;
@@ -61,24 +60,17 @@
 		line-height: 160%;
 		color: $color-storm;
 	}
-	// .mission__item--sefity
-	&__item--sefity {
+}
+.know-form {
+	&__content {
+		display: flex;
+		align-items: flex-end;
 	}
-	// .mission__item--comfort
-	&__item--comfort {
+	// .know-form__field
+	&__field {
+		margin-right: 24px;
 	}
-}
-.section-offset {
-}
-.container {
-}
-.title {
-}
-.title--center {
-}
-.descr {
-}
-.descr--center {
-}
-.list-reset {
+	&__btn{
+		padding: 11px 29px;
+	}
 }

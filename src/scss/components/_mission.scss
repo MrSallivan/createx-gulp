@@ -1,12 +1,13 @@
 .mission {
-	padding-bottom: 270px;
 	background-color: $color-light;
 	// .mission__list
 	&__list {
 		--mission-gap: 94px;
 		display: grid;
+		margin-bottom: 27px;
 		grid-template-columns: repeat(3, 1fr);
 		gap: calc(var(--mission-gap) * 2);
+		
 	}
 	// .mission__item
 	&__item {
@@ -62,6 +63,8 @@
 	}
 }
 .know-form {
+	position: relative;
+	top: 92px;
 	border-radius: 4px;
 	padding: 48px 60px;
 	box-shadow: 0 80px 80px -20px rgba(154, 156, 165, 0.08), 0 30px 24px -10px rgba(154, 156, 165, 0.05),
@@ -74,6 +77,7 @@
 	}
 	&__title {
 		margin: 0;
+		margin-bottom: 33px;
 		text-align: center;
 		font-weight: bold;
 		font-size: 28px;

@@ -1,5 +1,31 @@
-.dervices-section {
+.services-section {
 	padding-top: 212px;
 	background: url("../../img/services-bg.svg") center/cover no-repeat;
-
+}
+.container {
+}
+.title {
+}
+.title--center {
+}
+.descr {
+}
+.descr--center {
+}
+.services-list {
+		// .services-list__item
+		&__item {
+		}
+}
+.list-reset {
+}
+.services-item {
+		// .services-item__icon
+		&__icon {
+		}
+		// .services-item__title
+		&__title {
+		}
+}
+.aria-hidden= {
 }

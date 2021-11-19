@@ -1,0 +1,22 @@
+.slider-nav {
+	display: grid;
+	grid-template-columns: repeat(2, 48px);
+
+		// .slider-nav__btn
+		&__btn {
+			width: 48px;
+			height: 48px;
+		}
+}
+.btn-reset {
+}
+.portfolio-section {
+		// .portfolio-section__prev
+		&__prev {
+		}
+		// .portfolio-section__next
+		&__next {
+		}
+}
+.slider-btn {
+}

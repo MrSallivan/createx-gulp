@@ -2,6 +2,20 @@
 	padding-top: 212px;
 	padding-bottom: 50px;
 	background: url("../../img/services-bg.svg") center/cover no-repeat;
+	&__learn {
+		@include flex-all-center;
+	}
+	&__subtitle {
+		margin: 0;
+		margin-right: 40px;
+		font-weight: 700;
+		font-size: 28px;
+		line-height: 150%;
+		color: $color-ebony;
+	}
+	&__list{
+		margin-bottom: 80px;
+	}
 }
 
 .services-list {
@@ -33,7 +47,7 @@
 		top: 0;
 		z-index: 3;
 		border-radius: inherit;
-		background: url("../../img/services1.jpg");
+		background-color: $color-ebony;
 		opacity: 0;
 		transition: opacity 0.3s ease-in-out;
 	}
@@ -62,7 +76,7 @@
 		object-fit: cover;
 		margin-bottom: 30px;
 		fill: $color-primary;
-		transition: fill .3s ease-in-out;
+		transition: fill 0.3s ease-in-out;
 	}
 	// .services-item__title
 	&__title {
@@ -74,18 +88,38 @@
 		color: $color-ebony;
 		transition: color 0.3s ease-in-out;
 	}
+	&--construct {
+		&::before {
+			background: url("../../img/services1.jpg") center/cover no-repeat;
+		}
+	}
+	&--development {
+		&::before {
+			background: url("../../img/services1.jpg") center/cover no-repeat;
+		}
+	}
+	&--design {
+		&::before {
+			background: url("../../img/services1.jpg") center/cover no-repeat;
+		}
+	}
+	&--repairs {
+		&::before {
+			background: url("../../img/services1.jpg") center/cover no-repeat;
+		}
+	}
 
-	&:hover{
-		&::before{
+	&:hover {
+		&::before {
 			opacity: 1;
 		}
-		&::after{
+		&::after {
 			opacity: 1;
 		}
-		.services-item__icon{
+		.services-item__icon {
 			fill: $color-light;
 		}
-		.services-item__title{
+		.services-item__title {
 			color: $color-light;
 		}
 	}

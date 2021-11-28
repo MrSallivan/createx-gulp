@@ -1,11 +1,20 @@
 .portfolio-section {
+	padding: 120px 0;
 	background-color: $color-light;
 		// .portfolio-section__top
 		&__top {
+			display: flex;
+			justify-content: space-between;
+
 		}
 		// .portfolio-section__title
 		&__title {
+			margin: 0;
 			max-width: 710px;
+			padding-bottom: 12px;
+		}
+		&__slider-nav{
+			transform:translateX(12px);
 		}
 }
 
